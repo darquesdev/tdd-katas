@@ -1,0 +1,7 @@
+/build/
+/.idea/
+/.gradle/
+/tdd-kata-stringcalculator.iml
+/tdd-kata-stringcalculator.ipr
+/tdd-kata-stringcalculator.iws
+*.iml
