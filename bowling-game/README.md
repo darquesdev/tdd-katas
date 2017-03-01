@@ -1,1 +1,1 @@
-This famous kata of Unkle Bob was made with the Software Craftmanship Madrid Meetup Group
+This famous [kata](http://codingdojo.org/kata/Bowling/) of [Unkle Bob](http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata) was made with the [Software Craftmanship Madrid](https://www.meetup.com/es-ES/madswcraft/) Meetup Group
