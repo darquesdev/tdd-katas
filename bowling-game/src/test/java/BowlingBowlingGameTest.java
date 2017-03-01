@@ -45,44 +45,26 @@ public class BowlingBowlingGameTest {
 
     @Test
     public void can_make_an_spare(){
-
-        //when
-        game.roll(5);
-        game.roll(5);
+        multipleRolls(2, 5);
         game.roll(3);
         multipleRolls(17, 0);
-
-        //then
         assertThat(game.score(), is(16));
     }
 
     @Test
-    public void can_make_2_consecutives_spares(){
-
-        //when
-        game.roll(5);
-        game.roll(5);
-
-        game.roll(5);
-        game.roll(5);
-
+    public void can_make_two_consecutive_spares(){
+        multipleRolls(4, 5);
         game.roll(3);
         multipleRolls(15, 0);
-
-        //then
         assertThat(game.score(), is(31));
     }
 
     @Test
     public void can_make_an_strike(){
-
-        //when
         game.roll(10);
         game.roll(3);
         game.roll(1);
         multipleRolls(16, 0);
-
-        //then
         assertThat(game.score(), is(18));
     }
 
@@ -91,5 +73,4 @@ public class BowlingBowlingGameTest {
         multipleRolls(12, 10);
         assertThat(game.score(), is(300));
     }
-
 }
