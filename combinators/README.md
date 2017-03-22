@@ -1,1 +1,1 @@
-Coding dojo about cominators with Javascript
+Coding dojo about combinators with Javascript
